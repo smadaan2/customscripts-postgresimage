@@ -1,0 +1,8 @@
+Initialize database with initial scripts while creating the image
+=================================================================
+
+###Create the image
+docker build -t shikha/postgres .
+
+###Create container
+docker run shikha/postgres
